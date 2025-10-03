@@ -19,4 +19,23 @@ fun main() {
         }
         println(num)
     }
+    println("Напишите что-нибудь (для выхода введите 'выход');")
+
+    while (true) {
+        val input = readLine()
+        if (input == "выход") {
+            println("До свидания!")
+            break
+        }
+        println("Вы ввели: $input")
+    }
+
+    var letter = 'A'
+    while (letter <= 'Z'){
+        print(letter)
+        letter++
+    }
+
+    //Шаг 3. Побег из подземелья
+
 }
